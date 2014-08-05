@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<configuration>
+    <outputunit>dms</outputunit>
+    <labelstyle fontsize="9"/>
+</configuration>

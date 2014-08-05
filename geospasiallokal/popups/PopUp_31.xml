@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<configuration>
+    <title>{Nama}</title>
+    <fields>
+        <field name="Nama" alias="Nama Pos" visible="true"/>
+        <field name="Alat" alias="Alat" visible="true"/>
+        <field name="Lokasi" alias="Lokasi" visible="true"/>
+        <field name="WS_DAS" alias="Wilayah Sungai/DAS" visible="true"/>
+        <field name="DesaKelurahan" alias="DesaKelurahan" visible="true"/>
+        <field name="Kecamatan" alias="Kecamatan" visible="true"/>
+        <field name="Tahun" alias="Tahun" visible="true"/>
+        <field name="KabupatenKota" alias="KabupatenKota" visible="true"/>
+        <field name="Elevasi" alias="Elevasi (m)" visible="true"/>
+        <field name="DialGSM" alias="Dial GSM"/>
+        <field name="DialGPRS" alias="Dial GPRS"/>
+    </fields>
+    <showattachments>false</showattachments>
+    <showrelatedrecords>false</showrelatedrecords>
+</configuration>

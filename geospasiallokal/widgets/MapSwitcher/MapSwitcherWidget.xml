@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<configuration>
+    <layerlist visible="true"/>
+    <labels>
+        <layerlistlabel>Daftar Layer</layerlistlabel>
+        <basemapslabel>Basemap</basemapslabel>
+    </labels>
+    <showthumbnails>true</showthumbnails>
+    <includelegenditems>true</includelegenditems>
+</configuration>

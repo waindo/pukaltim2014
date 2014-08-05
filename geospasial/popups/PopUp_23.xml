@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<configuration>
+    <fields>
+        <field name="Bandara" alias="Bandara" visible="true"/>
+        <field name="Kabupaten" alias="Kabupaten" visible="true"/>
+        <field name="Pengelola" alias="Pengelola" visible="true"/>
+    </fields>
+    <showattachments>false</showattachments>
+    <showrelatedrecords>false</showrelatedrecords>
+</configuration>

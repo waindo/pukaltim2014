@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<configuration>
+    <title>{Gridcode}</title>
+    <fields>
+        <field name="Gridcode" alias="Gridcode"/>
+        <field name="Ketinggian" alias="Ketinggian" visible="true"/>
+        <field name="SHAPE.STArea()" alias="SHAPE.STArea()"/>
+        <field name="SHAPE.STLength()" alias="SHAPE.STLength()"/>
+    </fields>
+    <showattachments>false</showattachments>
+    <showrelatedrecords>false</showrelatedrecords>
+</configuration>

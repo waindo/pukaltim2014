@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<configuration>
+    <fields>
+        <field name="Nama" alias="Tutupan Lahan" visible="true"/>
+        <field name="SHAPE.STArea()" alias="SHAPE.STArea()" visible="true"/>
+        <field name="SHAPE.STLength()" alias="SHAPE.STLength()" visible="true"/>
+    </fields>
+    <showattachments>false</showattachments>
+    <showrelatedrecords>false</showrelatedrecords>
+</configuration>

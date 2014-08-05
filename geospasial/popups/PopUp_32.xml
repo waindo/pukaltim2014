@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<configuration>
+    <title>{Saluran}</title>
+    <fields>
+        <field name="Saluran" alias="Nama Saluran" visible="true"/>
+        <field name="Kabupaten" alias="Kabupaten" visible="true"/>
+        <field name="Kecamatan" alias="Kecamatan" visible="true"/>
+        <field name="Jenis" alias="Jenis" visible="true"/>
+        <field name="DI" alias="Daerah Irigasi" visible="true"/>
+        <field name="Pengambilan" alias="Pengambilan" visible="true"/>
+        <field name="Panjang" alias="Panjang" visible="true"/>
+        <field name="Lebar" alias="Lebar" visible="true"/>
+        <field name="Kemiringan" alias="Kemiringan" visible="true"/>
+        <field name="Pelengkap" alias="Pelengkap" visible="true"/>
+        <field name="Tahun_Awal" alias="Tahun Mulai Konstruksi" visible="true"/>
+        <field name="Tahun_Akhir" alias="Tahun Selesai Konstruksi" visible="true"/>
+        <field name="SHAPE.STLength()" alias="SHAPE.STLength()"/>
+    </fields>
+    <showattachments>false</showattachments>
+    <showrelatedrecords>false</showrelatedrecords>
+</configuration>

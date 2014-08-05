@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<configuration>
+    <fields>
+        <field name="Formasi" alias="Formasi" visible="true"/>
+        <field name="Sandi" alias="Sandi" visible="true"/>
+        <field name="Penyusun" alias="Penyusun" visible="true"/>
+        <field name="Endapan" alias="Endapan" visible="true"/>
+        <field name="Mulai" alias="Mulai Umur" visible="true"/>
+        <field name="Akhir" alias="Akhir Umur" visible="true"/>
+        <field name="Data" alias="Data" visible="true"/>
+        <field name="SHAPE.STArea()" alias="SHAPE.STArea()" visible="true"/>
+        <field name="SHAPE.STLength()" alias="SHAPE.STLength()" visible="true"/>
+    </fields>
+    <showattachments>false</showattachments>
+    <showrelatedrecords>false</showrelatedrecords>
+</configuration>

@@ -1,0 +1,96 @@
+<?xml version="1.0" ?>
+<configuration>
+    <title>Dinas Pekerjaan Umum Provinsi Kalimantan Timur</title>
+    <logo>assets/images/logo2.png</logo>
+    <style>
+        <colors>0xcee7f4,0x336699,0x355d89,0x294867,0xcee7f4</colors>
+        <alpha>0.8</alpha>
+        <font name="Verdana"/>
+        <titlefont name="Verdana"/>
+        <subtitlefont name="Verdana"/>
+    </style>
+    <!-- replace the following url with your own geometryservice -->
+    <geometryservice url="http://tasks.arcgisonline.com/ArcGIS/rest/services/Geometry/GeometryServer"/>
+    <subtitle>Bidang Sumber Daya Air</subtitle>
+    <widget url="widgets/Navigation/NavigationWidget.swf" config="widgets/Navigation/NavigationWidget.xml" left="10" top="50"/>
+    <widget url="widgets/OverviewMap/OverviewMapWidget.swf" config="widgets/OverviewMap/OverviewMapWidget.xml" right="0" bottom="0"/>
+    <widget url="widgets/MapSwitcher/MapSwitcherWidget.swf" config="widgets/MapSwitcher/MapSwitcherWidget.xml" right="20" top="55"/>
+    <widget url="widgets/HeaderController/HeaderControllerWidget.swf" config="widgets/HeaderController/HeaderControllerWidget.xml" left="0" top="0"/>
+    <widget url="widgets/Coordinate/CoordinateWidget.swf" config="widgets/Coordinate/CoordinateWidget.xml" label="Coordinate" left="3" bottom="1"/>
+    <widget url="widgets/Splash/SplashWidget.swf" config="widgets/Splash/SplashWidget.xml" label="Splash"/>
+    <map attributionvisible="true" esrilogovisible="true" openhandcursorvisible="false" scalebarvisible="true" scalebar="metric" zoomslidervisible="false" wraparound180="true" addarcgisbasemaps="true" initialextent="11887160.553489616 -501892.7287146236 13939341.888889482 642828.2068838716" wkid="102100" top="40" portalurl="https://www.arcgis.com/">
+        <lods>
+            <lod resolution="4891.969810244685" scale="18489297.737216"/>
+            <lod resolution="2445.984905122342" scale="9244648.868608"/>
+            <lod resolution="1222.992452561171" scale="4622324.434304"/>
+            <lod resolution="611.4962262805856" scale="2311162.217152"/>
+            <lod resolution="305.7481131402928" scale="1155581.108576"/>
+            <lod resolution="152.8740565701464" scale="577790.554288"/>
+            <lod resolution="76.4370282850732" scale="288895.277144"/>
+            <lod resolution="38.2185141425366" scale="144447.638572"/>
+            <lod resolution="19.1092570712683" scale="72223.819286"/>
+            <lod resolution="9.55462853563415" scale="36111.909643"/>
+            <lod resolution="4.77731426794937" scale="18055.954822"/>
+            <lod resolution="2.38865713397468" scale="9027.977411"/>
+            <lod resolution="1.19432856685505" scale="4513.988705"/>
+        </lods>
+        <basemaps>
+            <layer type="tiled" label="Imagery with Labels" icon="https://www.arcgis.com/sharing/rest/content/items/413fd05bbd7342f5991d5ec96f4f8b18/info/thumbnail/tempimagery_with_labels_ne_usa.png" url="http://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer" visible="true"/>
+            <layer type="tiled" label="Imagery with Labels" url="http://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer" visible="true" reference="true"/>
+        </basemaps>
+        <operationallayers>
+            <layer type="dynamic" label="Geologi" imageformat="png8" url="http://localhost:6080/arcgis/rest/services/view/Geologi/MapServer" visible="false">
+                <sublayer id="0" popupconfig="popups/PopUp_46.xml"/>
+            </layer>
+            <layer type="dynamic" label="Topografi" imageformat="png8" url="http://localhost:6080/arcgis/rest/services/view/Topografi/MapServer" visible="false">
+                <sublayer id="0" popupconfig="popups/PopUp_45.xml"/>
+            </layer>
+            <layer type="dynamic" label="Tutupan Lahan" imageformat="png8" url="http://localhost:6080/arcgis/rest/services/view/TutupanLahan/MapServer" visible="false">
+                <sublayer id="0" popupconfig="popups/PopUp_44.xml"/>
+            </layer>
+            <layer type="dynamic" label="Jenis Tanah" imageformat="png8" url="http://localhost:6080/arcgis/rest/services/view/JenisTanah/MapServer" visible="false">
+                <sublayer id="0" popupconfig="popups/PopUp_43.xml"/>
+            </layer>
+            <layer type="dynamic" label="Wilayah Sungai" imageformat="png8" url="http://localhost:6080/arcgis/rest/services/view/WilayahSungai/MapServer" visible="false">
+                <sublayer id="0" popupconfig="popups/PopUp_42.xml"/>
+            </layer>
+            <layer type="dynamic" label="Cekungan Air Tanah" imageformat="png8" url="http://localhost:6080/arcgis/rest/services/view/CekunganAirTanah/MapServer" visible="false">
+                <sublayer id="0" popupconfig="popups/PopUp_41.xml"/>
+            </layer>
+            <layer type="dynamic" label="Daerah Aliran Sungai" imageformat="png8" url="http://localhost:6080/arcgis/rest/services/view/DaerahAliranSungai/MapServer" visible="false">
+                <sublayer id="0" popupconfig="popups/PopUp_40.xml"/>
+            </layer>
+            <layer type="dynamic" label="CitraSamboja2012" imageformat="png8" url="http://localhost:6080/arcgis/rest/services/view/CitraSamboja2012/MapServer" visible="true"/>
+            <layer type="dynamic" label="Daerah Irigasi" imageformat="png8" url="http://localhost:6080/arcgis/rest/services/view/DaerahIrigasi/MapServer" visible="false">
+                <sublayer id="0" popupconfig="popups/PopUp_39.xml"/>
+            </layer>
+            <layer type="dynamic" label="Danau" imageformat="png8" url="http://localhost:6080/arcgis/rest/services/view/Danau/MapServer" visible="false">
+                <sublayer id="0" popupconfig="popups/PopUp_38.xml"/>
+            </layer>
+            <layer type="dynamic" label="Rawa" imageformat="png8" url="http://localhost:6080/arcgis/rest/services/view/Rawa/MapServer" visible="false">
+                <sublayer id="0" popupconfig="popups/PopUp_37.xml"/>
+            </layer>
+            <layer type="dynamic" label="Sistem Pengendalian Banjir" imageformat="png8" url="http://localhost:6080/arcgis/rest/services/view/SPBPS/MapServer" visible="false">
+                <sublayer id="0" popupconfig="popups/PopUp_36.xml"/>
+            </layer>
+            <layer type="dynamic" label="Administrasi" imageformat="png8" url="http://localhost:6080/arcgis/rest/services/view/Administrasi/MapServer" visible="true">
+                <sublayer id="10" popupconfig="popups/PopUp_34.xml"/>
+                <sublayer id="7" popupconfig="popups/PopUp_35.xml"/>
+            </layer>
+            <layer type="dynamic" label="Bangunan Hidraulika &amp; Geoteknik Kearian" imageformat="png8" url="http://localhost:6080/arcgis/rest/services/view/BHGK/MapServer" visible="false">
+                <sublayer id="0" popupconfig="popups/PopUp_47.xml"/>
+                <sublayer id="1" popupconfig="popups/PopUp_48.xml"/>
+                <sublayer id="2" popupconfig="popups/PopUp_49.xml"/>
+                <sublayer id="3" popupconfig="popups/PopUp_50.xml"/>
+                <sublayer id="4" popupconfig="popups/PopUp_51.xml"/>
+                <sublayer id="5" popupconfig="popups/PopUp_52.xml"/>
+                <sublayer id="6" popupconfig="popups/PopUp_53.xml"/>
+            </layer>
+        </operationallayers>
+    </map>
+    <widgetcontainer layout="float">
+        <widget url="widgets/Draw/DrawWidget.swf" config="widgets/Draw/DrawWidget.xml" label="Draw" icon="assets/images/i_draw2.png"/>
+        <widget url="widgets/Print/PrintWidget.swf" config="widgets/Print/PrintWidget.xml" label="Print" icon="assets/images/i_print.png"/>
+        <widget url="widgets/Legend/LegendWidget.swf" config="widgets/Legend/LegendWidget_1.xml" label="Legend" icon="assets/images/Legend32.png"/>
+    </widgetcontainer>
+</configuration>

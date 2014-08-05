@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<configuration>
+    <taskurl>http://192.168.0.254:6080/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task</taskurl>
+    <title visible="false"/>
+    <copyright visible="true">DPU SDA Provinsi Kalimantan Timur</copyright>
+    <author visible="true">Administrator</author>
+    <dpi>300</dpi>
+    <usescale visible="true"/>
+</configuration>

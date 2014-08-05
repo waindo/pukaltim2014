@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<configuration>
+    <fields>
+        <field name="Nama" alias="Nama" visible="true"/>
+        <field name="LuasFung" alias="Luas Fungsional" visible="true"/>
+        <field name="LuasPot" alias="Luas Potensial" visible="true"/>
+        <field name="Kabupaten" alias="Kabupaten" visible="true"/>
+        <field name="Kecamatan" alias="Kecamatan" visible="true"/>
+        <field name="Desa" alias="Desa" visible="true"/>
+        <field name="Pola" alias="Pola Tanam" visible="true"/>
+        <field name="Jadwal" alias="Jadwal Tanam" visible="true"/>
+        <field name="Jenis" alias="Jenis Irigasi" visible="true"/>
+        <field name="Sistem" alias="Sistem Air" visible="true"/>
+        <field name="Sumber" alias="Sumber Air" visible="true"/>
+        <field name="Produksi" alias="Produksi" visible="true"/>
+        <field name="Padi" alias="Jenis Padi" visible="true"/>
+        <field name="P3A" alias="Ketersediaan P3A" visible="true"/>
+        <field name="SHAPE_Length" alias="SHAPE_Length"/>
+        <field name="SHAPE_Area" alias="SHAPE_Area"/>
+    </fields>
+    <showattachments>false</showattachments>
+    <showrelatedrecords>false</showrelatedrecords>
+</configuration>

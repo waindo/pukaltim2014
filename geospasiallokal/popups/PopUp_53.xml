@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<configuration>
+    <title>{Pantai}</title>
+    <fields>
+        <field name="Pantai" alias="Pantai" visible="true"/>
+        <field name="Kabupaten" alias="Kabupaten" visible="true"/>
+        <field name="Kecamatan" alias="Kecamatan" visible="true"/>
+        <field name="Tipe" alias="Tipe Pengaman" visible="true"/>
+        <field name="Tahun_Awal" alias="Tahun Mulai Konstruksi" visible="true"/>
+        <field name="Tahun_Akhir" alias="Tahun Selesai Konstruksi" visible="true"/>
+        <field name="Panjang" alias="Panjang" visible="true"/>
+        <field name="Kondisi" alias="Kondisi" visible="true"/>
+        <field name="SHAPE.STLength()" alias="SHAPE.STLength()"/>
+    </fields>
+    <showattachments>false</showattachments>
+    <showrelatedrecords>false</showrelatedrecords>
+</configuration>

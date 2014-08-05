@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<configuration>
+    <title>{Sistem}</title>
+    <fields>
+        <field name="Sistem" alias="Sistem Pengendalian Banjir" visible="true"/>
+        <field name="Panjang" alias="Panjang Penanganan" visible="true"/>
+        <field name="Konstruksi" alias="Tipe Konstruksi" visible="true"/>
+        <field name="Tahun_Awal" alias="Tahun Mulai Konstruksi" visible="true"/>
+        <field name="Tahun_Akhir" alias="Tahun Selesai Konstruksi" visible="true"/>
+        <field name="Kendala" alias="Kendala" visible="true"/>
+        <field name="Foto" alias="Foto Kegiatan"/>
+        <field name="SHAPE.STLength()" alias="SHAPE.STLength()"/>
+    </fields>
+    <showattachments>false</showattachments>
+    <showrelatedrecords>false</showrelatedrecords>
+</configuration>

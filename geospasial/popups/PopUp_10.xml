@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<configuration>
+    <title>{Nama}</title>
+    <fields>
+        <field name="Nama" alias="Nama" visible="true"/>
+        <field name="Kabupaten" alias="Kabupaten" visible="true"/>
+        <field name="Kecamatan" alias="Kecamatan" visible="true"/>
+        <field name="Q1" alias="Q1" visible="true"/>
+        <field name="Q2" alias="Q2" visible="true"/>
+        <field name="Sumber" alias="Sumber" visible="true"/>
+        <field name="Perimeter" alias="Perimeter" visible="true"/>
+        <field name="Keterangan" alias="Keterangan" visible="true"/>
+        <field name="SHAPE_Length" alias="SHAPE_Length" visible="true"/>
+        <field name="SHAPE_Area" alias="SHAPE_Area"/>
+    </fields>
+    <showattachments>false</showattachments>
+    <showrelatedrecords>false</showrelatedrecords>
+</configuration>

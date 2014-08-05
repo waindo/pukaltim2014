@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<configuration>
+    <fields>
+        <field name="ID" alias="ID" visible="true"/>
+        <field name="Nama" alias="Nama" visible="true"/>
+        <field name="Kabupaten" alias="Kabupaten" visible="true"/>
+        <field name="Kecamatan" alias="Kecamatan" visible="true"/>
+        <field name="Provinsi" alias="Provinsi" visible="true"/>
+        <field name="Wewenang" alias="Wewenang" visible="true"/>
+        <field name="SHAPE.STArea()" alias="SHAPE.STArea()" visible="true"/>
+        <field name="SHAPE.STLength()" alias="SHAPE.STLength()" visible="true"/>
+    </fields>
+    <showattachments>false</showattachments>
+    <showrelatedrecords>false</showrelatedrecords>
+</configuration>

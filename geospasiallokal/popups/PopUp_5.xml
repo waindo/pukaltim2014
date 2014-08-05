@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<configuration>
+    <fields>
+        <field name="Bahan" alias="Bahan Induk" visible="true"/>
+        <field name="USDA" alias="USDA 1990" visible="true"/>
+        <field name="PPT" alias="PPT" visible="true"/>
+        <field name="Proporsi" alias="Proporsi" visible="true"/>
+        <field name="Fisiografi" alias="Fisiografi" visible="true"/>
+        <field name="SHAPE.STArea()" alias="SHAPE.STArea()" visible="true"/>
+        <field name="SHAPE.STLength()" alias="SHAPE.STLength()" visible="true"/>
+    </fields>
+    <showattachments>false</showattachments>
+    <showrelatedrecords>false</showrelatedrecords>
+</configuration>

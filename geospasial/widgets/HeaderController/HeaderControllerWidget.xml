@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<configuration>
+    <geocoder visible="true">
+        <url>http://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer</url>
+        <useproxy>false</useproxy>
+        <zoomscale>10000</zoomscale>
+        <minscore>40</minscore>
+        <mapservices enabled="true">
+            <mapservice>
+                <url>http://192.168.0.254:6080/arcgis/rest/services/view/Administrasi/MapServer</url>
+                <layerids>0,6,7,10</layerids>
+                <searchfields>Desa,Name,NAMA_UNSUR</searchfields>
+            </mapservice>
+            <mapservice>
+                <url>http://192.168.0.254:6080/arcgis/rest/services/view/BHGK/MapServer</url>
+                <layerids>0,1,2,3,4,5,6</layerids>
+                <searchfields>Nama,Sungai,Kabupaten,Kecamatan,Tahun_Awal,Tahun_Akhir,Tipe,Panjang,Tinggi,PemanIrigasi,PemanAirbaku,Kondisi,Pengelola,Kapasitas,Luas,Alat,Lokasi,WS_DAS,DesaKelurahan,KabupatenKota,Elevasi,Tahun,Saluran,Jenis,DI,Pengambilan,Lebar,Kemiringan,Pelengkap,SHAPE.STLength(),Pantai</searchfields>
+            </mapservice>
+            <mapservice>
+                <url>http://192.168.0.254:6080/arcgis/rest/services/view/WilayahSungai/MapServer</url>
+                <layerids>0</layerids>
+                <searchfields>ID,Nama,Kabupaten,Kecamatan,Provinsi,Wewenang</searchfields>
+            </mapservice>
+        </mapservices>
+    </geocoder>
+    <links>
+        <link label="About">
+            <content closelabel=""><![CDATA[
+                     <p align='center'>
+                         <img src='assets/images/globe.png'/>
+                         <br/>
+                         <br/>
+                         <font size="+2"><b><a href="http://links.esri.com/flexviewer" target='_blank'>ArcGIS Viewer for Flex</a></b></font>
+                     </p>
+                ]]></content>
+        </link>
+    </links>
+</configuration>

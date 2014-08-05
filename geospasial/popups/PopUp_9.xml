@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<configuration>
+    <fields>
+        <field name="Nama" alias="Nama" visible="true"/>
+        <field name="Kabupaten" alias="Kabupaten" visible="true"/>
+        <field name="Kecamatan" alias="Kecamatan" visible="true"/>
+        <field name="SHAPE_Length" alias="SHAPE_Length" visible="true"/>
+        <field name="SHAPE_Area" alias="SHAPE_Area" visible="true"/>
+    </fields>
+    <showattachments>false</showattachments>
+    <showrelatedrecords>false</showrelatedrecords>
+</configuration>

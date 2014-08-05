@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<configuration>
+    <title>{Nama}</title>
+    <fields>
+        <field name="Nama" alias="Nama" visible="true"/>
+        <field name="Kabupaten" alias="Kabupaten" visible="true"/>
+        <field name="Kecamatan" alias="Kecamatan" visible="true"/>
+        <field name="Luas" alias="Luas" visible="true"/>
+        <field name="Jenis" alias="Jenis Rawa" visible="true"/>
+        <field name="Potensi" alias="Potensi Pemanfaatan" visible="true"/>
+        <field name="SHAPE.STArea()" alias="SHAPE.STArea()"/>
+        <field name="SHAPE.STLength()" alias="SHAPE.STLength()"/>
+    </fields>
+    <showattachments>false</showattachments>
+    <showrelatedrecords>false</showrelatedrecords>
+</configuration>

@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<configuration>
+    <title>Batas Administrasi</title>
+    <description><![CDATA[Nama Kabupaten : {KAB_KOTA_1}]]></description>
+    <fields>
+        <field name="FID" alias="FID"/>
+        <field name="KAB_KOTA_1" alias="KAB_KOTA_1"/>
+        <field name="PDRB" alias="PDRB"/>
+        <field name="LPE" alias="LPE"/>
+        <field name="PDRB_Per" alias="PDRB_Per"/>
+        <field name="DIS_Prt" alias="DIS_Prt"/>
+        <field name="DIS_Tamb" alias="DIS_Tamb"/>
+        <field name="DIS_IP" alias="DIS_IP"/>
+        <field name="DIS_LGA" alias="DIS_LGA"/>
+        <field name="DIS_Bgn" alias="DIS_Bgn"/>
+        <field name="DIS_PHR" alias="DIS_PHR"/>
+        <field name="DIS_Akom" alias="DIS_Akom"/>
+        <field name="DIS_Keu" alias="DIS_Keu"/>
+        <field name="DIS_Jasa" alias="DIS_Jasa"/>
+        <field name="Keluar_Per" alias="Keluar_Per"/>
+        <field name="Indeks_Gin" alias="Indeks_Gin"/>
+    </fields>
+    <showattachments>false</showattachments>
+    <showrelatedrecords>false</showrelatedrecords>
+</configuration>

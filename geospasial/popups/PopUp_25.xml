@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<configuration>
+    <fields>
+        <field name="osm_id" alias="osm_id"/>
+        <field name="Lastchange" alias="Perubahan Terakhir"/>
+        <field name="Code" alias="Code"/>
+        <field name="FCLASS" alias="Kelas Jalan"/>
+        <field name="Name" alias="Nama Jalan" visible="true"/>
+        <field name="Ref" alias="Referensi"/>
+        <field name="Oneway" alias="Jalan Satu Arah"/>
+        <field name="Maxspeed" alias="Kecepatan Maksimal"/>
+        <field name="Layer" alias="Layer"/>
+        <field name="Bridge" alias="Jembatan"/>
+        <field name="Tunnel" alias="Tunnel"/>
+        <field name="Tahun" alias="Tahun Data"/>
+        <field name="Sumber" alias="Sumber"/>
+        <field name="SHAPE_Length" alias="SHAPE_Length"/>
+    </fields>
+    <showattachments>false</showattachments>
+    <showrelatedrecords>false</showrelatedrecords>
+</configuration>

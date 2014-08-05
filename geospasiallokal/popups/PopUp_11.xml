@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<configuration>
+    <fields>
+        <field name="Nama" alias="Nama Bangunan" visible="true"/>
+    </fields>
+    <showattachments>true</showattachments>
+    <showrelatedrecords>false</showrelatedrecords>
+</configuration>

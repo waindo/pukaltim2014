@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<configuration>
+    <fields>
+        <field name="Kabupaten" alias="Kabupaten" visible="true"/>
+        <field name="SHAPE_Length" alias="SHAPE_Length"/>
+        <field name="SHAPE_Area" alias="SHAPE_Area"/>
+    </fields>
+    <showattachments>false</showattachments>
+    <showrelatedrecords>false</showrelatedrecords>
+</configuration>

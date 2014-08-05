@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<configuration>
+    <title>{Nama}</title>
+    <fields>
+        <field name="Nama" alias="Nama" visible="true"/>
+        <field name="Sungai" alias="Sungai" visible="true"/>
+        <field name="Kabupaten" alias="Kabupaten" visible="true"/>
+        <field name="Kecamatan" alias="Kecamatan" visible="true"/>
+        <field name="Tahun_Awal" alias="Tahun Mulai Konstruksi" visible="true"/>
+        <field name="Tahun_Akhir" alias="Tahun Selesai Konstruksi" visible="true"/>
+        <field name="Tipe" alias="Tipe Bendali" visible="true"/>
+        <field name="Panjang" alias="Panjang" visible="true"/>
+        <field name="Tinggi" alias="Tinggi" visible="true"/>
+        <field name="PemanIrigasi" alias="Pemanfaatan Irigasi (Ha)" visible="true"/>
+        <field name="PemanAirbaku" alias="Pemanfaatan Air Baku (l/det)" visible="true"/>
+        <field name="Kondisi" alias="Kondisi" visible="true"/>
+        <field name="Pengelola" alias="Pengelola" visible="true"/>
+    </fields>
+    <showattachments>false</showattachments>
+    <showrelatedrecords>false</showrelatedrecords>
+</configuration>

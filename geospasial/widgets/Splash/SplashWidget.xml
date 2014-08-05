@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<configuration>
+    <width>0</width>
+    <height>0</height>
+    <content><![CDATA[
+             <p align='center'>
+                 <img src='assets/images/splash_KALTIM.png'/>
+                 <br/>
+                 <b><font size="+2" color="#FFFF00"></font></a></b>
+             </p>
+			]]></content>
+    <labels>
+        <btnlabel>OK</btnlabel>
+    </labels>
+</configuration>

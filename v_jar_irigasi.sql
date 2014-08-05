@@ -1,0 +1,1 @@
+SELECT * FROM v_jar_irigasibendunganair_baku
