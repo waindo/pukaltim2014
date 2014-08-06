@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2013-12-03 09:35:23
+<?php /* Smarty version Smarty-3.1.15, created on 2014-08-06 08:38:12
          compiled from "templates\sda\bukutamu.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:30360529d8ec3a6ced4-89339692%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '671cc3e9f1af0719d6a2f23a5b1354467875f8eb' => 
     array (
       0 => 'templates\\sda\\bukutamu.tpl',
-      1 => 1386059720,
+      1 => 1403505818,
       2 => 'file',
     ),
   ),
@@ -56,7 +56,7 @@ function valkomen(form){
 
 <div class="row">
   <div class="span9">
-    <div class="row content">
+    <div class="row content" style="padding:15px 15px 0 15px">
     <p style="border-bottom:1px dotted #CCC; padding-bottom:10px;"><a href="index.php">Home</a> / Buku Tamu</p>
       <div id="comments">
         <h2>Yang telang mengisi daftar Buku Tamu : </h2>

@@ -38,6 +38,7 @@ RewriteRule ^semua-album\.html$ media.php?module=semuaalbum&id=$1 [L]
 RewriteRule ^halgaleri-([0-9]+)-(.*)\.html$ media.php?module=detailalbum&id=$1&halgaleri=$2 [L]
 RewriteRule ^halkomentar-(.*)-([0-9]+)\.html$ media.php?module=detailberita&id=$1&halkomentar=$2 [L]
 RewriteRule ^lapor\.html$ lapor.php [L]
+RewriteRule ^act-lapor\.html$ act_lapor.php [L]
 RewriteRule ^kinerja-(.*)-(.*)\.html$ kegiatan-sda.php?tahun=$1&kegiatan=$2 [L]
 
 

@@ -22,9 +22,9 @@ switch($_GET[act]){
        $query = mysql_query("select * from lapol ORDER BY lapolident DESC ", $koneksi);
     //Membentuk table dari hasil query
        echo "<table border=1>";
-        echo "<tr></td><td>Nama Pelapor</td><td>Alamat</td> <td>Waktu Kejadian</td><td>Jenis Kejadian</td><td>Ketinggian Air</td><td>Kondisi Cuaca</td><td>Situasi Lalulintas</td><td>Lokasi Kejadian</td><td>Deskripsi</td><td>aksi</td></tr>";
+        echo "<tr><td>no</td></td><td>Nama Pelapor</td><td>Alamat</td> <td>Waktu Kejadian</td><td>Jenis Kejadian</td><td>Ketinggian Air</td><td>Kondisi Cuaca</td><td>Situasi Lalulintas</td><td>Lokasi Kejadian</td><td>Deskripsi</td><td>aksi</td></tr>";
         while ($r = mysql_fetch_array($query, MYSQL_ASSOC)) {
-                printf("<tr><td>$r[lapolident]</td><td>$r[lapolnames]</td><td>$r[lapoladdrs]</td><td>$r[lapoltimes]</td> <td>$r[lapoljenkj]</td><td>$r[lapollalin]</td><td>$r[lapolcuaca]</td><td>$r[lapolktair]</td><td>$r[lapollocat]</td><td>$r[lapoldescr]</td>
+                printf("<tr><td>$r[lapolident]</td><td>$r[lapolnames]</td><td>$r[lapoladdrs]</td><td>$r[lapoltimes]</td> <td>$r[lapoljenkj]</td><td>$r[lapolktair]</td><td>$r[lapolcuaca]</td><td>$r[lapollalin]</td><td>$r[lapollocat]</td><td>$r[lapoldescr]</td>
 				<td> <a href='$aksi?module=lapor&act=hapus&id=$r[lapolident]'>Hapus</a></td></tr>");
         }
 		
