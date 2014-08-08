@@ -1,8 +1,6 @@
 <?php
 
-
-mysql_connect("localhost","root","");
-mysql_select_db("sda_db");
+include "config/koneksi.php";
 include "config/library.php";
 
 $lapolnames=$_POST['nama'];

@@ -11,10 +11,11 @@ include "../../../config/koneksi.php";
 $module=$_GET[module];
 $act=$_GET[act];
 
-// Hapus hubungi
+// Hapus 
 if ($module=='lapor' AND $act=='hapus'){
   mysql_query("DELETE FROM lapol WHERE lapolident='$_GET[id]'");
   header('location:../../media.php?module='.$module);
 }
+
 }
 ?>
