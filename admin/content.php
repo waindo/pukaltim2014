@@ -409,6 +409,13 @@ elseif ($_GET['module']=='identitas'){
   }
 }
 
+// Bagian air
+elseif ($_GET['module']=='air'){
+  if ($_SESSION['leveluser']=='admin'){
+    include "modul/mod_air/air.php";
+  }
+}
+
 // Apabila modul tidak ditemukan
 else{
   echo "<p><b>MODUL BELUM ADA ATAU BELUM LENGKAP</b></p>";

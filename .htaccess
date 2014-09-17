@@ -40,7 +40,7 @@ RewriteRule ^halkomentar-(.*)-([0-9]+)\.html$ media.php?module=detailberita&id=$
 RewriteRule ^lapor\.html$ lapor.php [L]
 RewriteRule ^act-lapor\.html$ act_lapor.php [L]
 RewriteRule ^kinerja-(.*)-(.*)\.html$ kegiatan-sda.php?tahun=$1&kegiatan=$2 [L]
-
+RewriteRule ^air\.html$ air.php [L]
 
 Options All -Indexes
 </IfModule>

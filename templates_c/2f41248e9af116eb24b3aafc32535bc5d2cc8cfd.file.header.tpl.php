@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2014-08-05 08:49:22
+<?php /* Smarty version Smarty-3.1.15, created on 2014-09-16 05:45:47
          compiled from "templates\sda\header.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:929652963fea1c9e91-84019000%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '2f41248e9af116eb24b3aafc32535bc5d2cc8cfd' => 
     array (
       0 => 'templates\\sda\\header.tpl',
-      1 => 1407221359,
+      1 => 1410839144,
       2 => 'file',
     ),
   ),
@@ -74,7 +74,67 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 /jquery.fancybox.css?v=2.1.5" media="screen" />
 <script src="<?php echo $_smarty_tpl->tpl_vars['js']->value;?>
 /jquery-1.10.1.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 
+<script type="text/javascript">
+$(function () {
+    var chart;
+    $(document).ready(function() {
+        $.getJSON("dataair.php", function(json) {
+       
+            chart = new Highcharts.Chart({
+                chart: {
+                    renderTo: 'containerair',
+                    type: 'column',
+                    
+                },
+                title: {
+                    text: 'Perbandingan Kebutuhan dan Ketersediaan Air 2011',
+                    x: -20 //center
+                },
+                subtitle: {
+                    text: 'SDA PU KALIMANTAN TIMUR',
+                    x: -20
+                },
+                xAxis: {
+                    categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+                },
+                yAxis: {
+                    title: {
+                        text: 'Jumlah'
+                    },
+                    plotLines: [{
+                        value: 0,
+                        width: 1,
+                        color: '#808080'
+                    }]
+                },
+                tooltip: {
+                    formatter: function() {
+                            return '<b>'+ this.series.name +'</b><br/>'+
+                            this.x +': '+ this.y;
+                    }
+                },
+                legend: {
+                    layout: 'vertical',
+                    align: 'right',
+                    verticalAlign: 'top',
+                    x: -10,
+                    y: 100,
+                    borderWidth: 0
+                },
+                series: json
+            });
+        });
+   
+    });
+   
+});
+        </script>
+
+<script src="http://code.highcharts.com/highcharts.js"></script>
+  <script src="http://code.highcharts.com/modules/exporting.js"></script>
+  
 </head>
 <body>
 <div class="container">
@@ -107,8 +167,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
               </li>
         	 <li><a href="http://sda.pu.kaltimprov.go.id/geospasial" target="_blank">Geospasial Data</a></li>
              <li><a href="pustaka.html">Pustaka</a></li>
-             <li><a href="kontak-kami.html">Koantak</a></li>
+             <li><a href="kontak-kami.html">Kontak</a></li>
 			 <li><a href="lapor.html">INFO ANDA</a></li>
+			 <li><a href="air.html">Neraca Air</a></li>
              
              <li class="search"><form action="search.php">
                   <i class="icon-search icon-large"></i><input type="text" name="cari" />

@@ -48,12 +48,12 @@
 <script src="{$js}/jquery-slider.js" type="text/javascript"></script>
 <script type="text/javascript" language="javascript" src="{$js}/jquery.carouFredSel-6.2.1-packed.js"></script>
 <script type="text/javascript" language="javascript" src="{$datatable}/media/js/jquery.dataTables.js"></script>
-<script type="text/javascript" charset="utf-8">
+<!--script type="text/javascript" charset="utf-8">
           $(document).ready(function() {
               $('#tabel').dataTable( {
                   "aaSorting": [[ 4, "desc" ]]
               } );
           } );
-      </script>
+      </script-->
 </body>
 </html>

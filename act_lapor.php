@@ -1,7 +1,9 @@
 <?php
 
 include "config/koneksi.php";
-include "config/library.php";
+date_default_timezone_set('Asia/Jakarta');
+$tgl_sekarang = date ('y-m-d');
+$jam_sekarang = date ('H:i:s');
 
 $lapolnames=$_POST['nama'];
 $lapoladdrs=$_POST['alamat'];

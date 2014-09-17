@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2014-07-18 03:26:48
+<?php /* Smarty version Smarty-3.1.15, created on 2014-09-16 05:47:11
          compiled from "templates\sda\footer.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:699052963fea244c30-82439147%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '894f7cb912050e2336dc8113e15ea29f82d28b50' => 
     array (
       0 => 'templates\\sda\\footer.tpl',
-      1 => 1403505770,
+      1 => 1410839228,
       2 => 'file',
     ),
   ),
@@ -92,12 +92,12 @@ $_smarty_tpl->tpl_vars['r_bukutamu']->_loop = true;
 /jquery.carouFredSel-6.2.1-packed.js"></script>
 <script type="text/javascript" language="javascript" src="<?php echo $_smarty_tpl->tpl_vars['datatable']->value;?>
 /media/js/jquery.dataTables.js"></script>
-<script type="text/javascript" charset="utf-8">
+<!--script type="text/javascript" charset="utf-8">
           $(document).ready(function() {
               $('#tabel').dataTable( {
                   "aaSorting": [[ 4, "desc" ]]
               } );
           } );
-      </script>
+      </script-->
 </body>
 </html><?php }} ?>
