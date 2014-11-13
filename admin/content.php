@@ -416,6 +416,13 @@ elseif ($_GET['module']=='air'){
   }
 }
 
+// Bagian Curah Hujan
+elseif ($_GET['module']=='ch'){
+  if ($_SESSION['leveluser']=='admin'){
+    include "modul/mod_ch/ch.php";
+  }
+}
+
 // Apabila modul tidak ditemukan
 else{
   echo "<p><b>MODUL BELUM ADA ATAU BELUM LENGKAP</b></p>";

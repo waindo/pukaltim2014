@@ -75,5 +75,7 @@
 			  ?>
               <p><a class="btn btn-success" href="?module=berita">Semua Berita &raquo;</a></p>
             </div><!--/span-->
+            <p><a class="btn btn-success" href="?module=lapor">Lihat Laporan Masyarakat &raquo;</a></p>
+            <p><a class="btn btn-success" href="?module=air">Input Data Air &raquo;</a></p>
           </div>
           <!--/row-->

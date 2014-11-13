@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2014-09-16 05:45:47
+<?php /* Smarty version Smarty-3.1.15, created on 2014-11-04 05:23:33
          compiled from "templates\sda\header.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:929652963fea1c9e91-84019000%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '2f41248e9af116eb24b3aafc32535bc5d2cc8cfd' => 
     array (
       0 => 'templates\\sda\\header.tpl',
-      1 => 1410839144,
+      1 => 1415075008,
       2 => 'file',
     ),
   ),
@@ -73,8 +73,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <link rel="stylesheet" type="text/css" href="<?php echo $_smarty_tpl->tpl_vars['source']->value;?>
 /jquery.fancybox.css?v=2.1.5" media="screen" />
 <script src="<?php echo $_smarty_tpl->tpl_vars['js']->value;?>
-/jquery-1.10.1.min.js" type="text/javascript"></script>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+/jquery-1.8.2.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="<?php echo $_smarty_tpl->tpl_vars['js']->value;?>
+/jquery.min.js"></script>
 
 <script type="text/javascript">
 $(function () {
@@ -132,8 +133,10 @@ $(function () {
 });
         </script>
 
-<script src="http://code.highcharts.com/highcharts.js"></script>
-  <script src="http://code.highcharts.com/modules/exporting.js"></script>
+<script src="<?php echo $_smarty_tpl->tpl_vars['js']->value;?>
+/highcharts.js"></script>
+  <script src="<?php echo $_smarty_tpl->tpl_vars['js']->value;?>
+/modules/exporting.js"></script>
   
 </head>
 <body>
@@ -165,10 +168,10 @@ $(function () {
                 <li><a href="progres.html">Progres Kegiatan</a></li>
               </ul>
               </li>
-        	 <li><a href="http://sda.pu.kaltimprov.go.id/geospasial" target="_blank">Geospasial Data</a></li>
+        	 <li><a href="http://117.54.11.71/flexviewers/geospasial" target="_blank">Geospasial Data</a></li>
              <li><a href="pustaka.html">Pustaka</a></li>
              <li><a href="kontak-kami.html">Kontak</a></li>
-			 <li><a href="lapor.html">INFO ANDA</a></li>
+			 <li><a href="lapor.html">Info Anda</a></li>
 			 <li><a href="air.html">Neraca Air</a></li>
              
              <li class="search"><form action="search.php">

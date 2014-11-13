@@ -24,8 +24,8 @@
 <script src="{$js}/menu_jquery.js" type="text/javascript"></script>
 <script type="text/javascript" src="{$source}/jquery.fancybox.js?v=2.1.5"></script>
 <link rel="stylesheet" type="text/css" href="{$source}/jquery.fancybox.css?v=2.1.5" media="screen" />
-<script src="{$js}/jquery-1.10.1.min.js" type="text/javascript"></script>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="{$js}/jquery-1.8.2.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="{$js}/jquery.min.js"></script>
 
 <script type="text/javascript">
 $(function () {
@@ -83,8 +83,8 @@ $(function () {
 });
         </script>
 
-<script src="http://code.highcharts.com/highcharts.js"></script>
-  <script src="http://code.highcharts.com/modules/exporting.js"></script>
+<script src="{$js}/highcharts.js"></script>
+  <script src="{$js}/modules/exporting.js"></script>
   
 </head>
 <body>
@@ -115,10 +115,10 @@ $(function () {
                 <li><a href="progres.html">Progres Kegiatan</a></li>
               </ul>
               </li>
-        	 <li><a href="http://sda.pu.kaltimprov.go.id/geospasial" target="_blank">Geospasial Data</a></li>
+        	 <li><a href="http://117.54.11.71/flexviewers/geospasial" target="_blank">Geospasial Data</a></li>
              <li><a href="pustaka.html">Pustaka</a></li>
              <li><a href="kontak-kami.html">Kontak</a></li>
-			 <li><a href="lapor.html">INFO ANDA</a></li>
+			 <li><a href="lapor.html">Info Anda</a></li>
 			 <li><a href="air.html">Neraca Air</a></li>
              
              <li class="search"><form action="search.php">

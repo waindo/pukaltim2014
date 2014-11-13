@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.15, created on 2014-09-17 05:40:42
+<?php /* Smarty version Smarty-3.1.15, created on 2014-11-06 05:21:24
          compiled from "templates\sda\lapor.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1140453e086d0e8ef50-54952100%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '427d2e07c4151206b057fd871059347f530363dc' => 
     array (
       0 => 'templates\\sda\\lapor.tpl',
-      1 => 1410925013,
+      1 => 1415247682,
       2 => 'file',
     ),
   ),
@@ -90,6 +90,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       <td>
       <textarea name="des" type="text" id="des"  maxlength="200" cols="45"></textarea></td>
     </tr>
+    
     <tr bgcolor="#EEEEEE">
       <td>&nbsp;</td>
       <td><input type="submit" name="Submit" value="Laporkan !"></td>

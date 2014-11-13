@@ -68,6 +68,7 @@
       <td>
       <textarea name="des" type="text" id="des"  maxlength="200" cols="45"></textarea></td>
     </tr>
+    
     <tr bgcolor="#EEEEEE">
       <td>&nbsp;</td>
       <td><input type="submit" name="Submit" value="Laporkan !"></td>
